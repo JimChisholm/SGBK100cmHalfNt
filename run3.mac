@@ -1,0 +1,18 @@
+/run/numberOfThreads 8
+/run/initialize
+/gps/source/intensity 1
+/gps/particle proton
+/gps/pos/shape Rectangle
+/gps/pos/centre 0 20 0 m
+/gps/pos/halfx 20 m  
+/gps/pos/halfy 20 m
+/gps/pos/type Plane
+/gps/pos/rot1 0 0 -1
+/gps/pos/rot2 1 0 0
+#/gps/pos/sigma_x 6 cm
+/gps/ang/type cos
+/gps/ene/type Gauss
+/gps/ene/mono 600 MeV
+/gps/ene/sigma 40 MeV
+#/run/printProgress 100
+/run/beamOn 1000
